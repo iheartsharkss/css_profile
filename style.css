@@ -23,11 +23,9 @@ img {
   margin:20px auto;
    display: block;
 }
-
 main {
   text-align: center;
 }
-
 .card {
   background-color: rgb(254, 255, 235);
   border: 2px solid rgb(99, 114, 86);
@@ -36,7 +34,6 @@ main {
   margin: 20px auto;
   width: 50%;
 }
-
 .card {
   display: inline-block;
   vertical-align: top;
