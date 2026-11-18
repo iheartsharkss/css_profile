@@ -4,13 +4,14 @@
 body {
   background-color: #ffedf9;
   font-family: Cedarville Cursive, cursive;
+  color: rgb(60, 81, 45);
 }
 #page-title {
   color: rgb(60, 81, 45);
   font-weight: bold;
   border: 2px solid rgb(99, 114, 86);
   border-radius: 8px;
-    background-color: rgb(237, 255, 235); padding: 20px;
+    background-color: rgb(254, 255, 235); padding: 20px;
   margin: 20px auto;
     text-align: center;
   width: 50%;
@@ -22,11 +23,25 @@ img {
   margin:20px auto;
    display: block;
 }
+
+main {
+  text-align: center;
+}
+
 .card {
-  background-color: rgb(237, 255, 235);
+  background-color: rgb(254, 255, 235);
   border: 2px solid rgb(99, 114, 86);
   border-radius: 8px;
   padding: 20px;
   margin: 20px auto;
   width: 50%;
 }
+
+.card {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  text-align: left;
+}
+
+
